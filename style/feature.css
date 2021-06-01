@@ -1,0 +1,372 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 1) !important;
+  padding: 30px;
+}
+
+.container .navbar-nav a,
+.navbar-brand {
+  font-weight: 100;
+  font-size: 1.5em;
+  color: black !important;
+  z-index: 2;
+  font-family: 'viga' sans-serif;
+  padding: 5px;
+}
+
+.container .navbar .nav-link {
+  margin-right: 1em;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive !important;
+}
+
+.container .navbar .nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid blue;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -5px;
+}
+
+/* Penutup Navbar */
+
+/* Carousel */
+.carousel {
+  margin-top: 2em;
+}
+
+.carousel-inner .carousel-caption {
+  height: 100%;
+  margin-bottom: -900 !important;
+}
+
+.carousel-inner img {
+  height: 75vh;
+  width: 100vw;
+}
+
+.carousel-inner .tulisan {
+  margin-top: 150px !important;
+}
+
+.carousel-inner .tulisan h5,
+.carousel-inner .tulisan p,
+.carousel-inner .tulisan a {
+  font-family: 'Montserrat' sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.carousel-inner .tulisan h5 {
+  font-size: 4em;
+  font-weight: 750 !important;
+}
+
+.carousel-inner .tulisan p {
+  font-size: 2em;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: rgba(32, 32, 32, 0.658);
+  width: 5%;
+}
+
+/* Penutup jumbotron */
+
+/* tag Jumbotron */
+.jumbotron-tag h6 {
+  font-size: 1.5em !important;
+  font-weight: 500;
+}
+
+.jumbotron-tag .col-12 p {
+  color: #888b98;
+}
+
+.jumbotron-tag .artikel p:not(.col-12 p) {
+  color: #50586d !important;
+  font-weight: 200;
+}
+
+.jumbotron-tag .artikel a:hover {
+  color: black;
+  font-weight: 600 !important;
+  text-decoration: none;
+  border-bottom: 3.5px solid black;
+  width: 30%;
+}
+
+.jumbotron-tag .col-sm-2 p {
+  font-size: 1.1em !important;
+}
+
+.jumbotron-tag .container img {
+  margin-top: 9vh;
+  width: 100px;
+  height: 100px;
+}
+
+/* Penutup tag jumbotron */
+
+/* artikel */
+.artikel {
+  margin-top: 10em;
+}
+
+.artikel .container h1 {
+  font-size: 3em !important;
+}
+
+.artikel .container li {
+  display: inline;
+  margin-left: 30px;
+}
+
+.artikel .container a {
+  font-weight: 700;
+}
+
+.artikel ul a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+.artikel {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.artikel .col-12 img {
+  width: 100%;
+  height: 60vh;
+}
+
+/* Penutup Artikel */
+
+/* Card */
+.card-body:hover {
+  background-color: rgba(0, 0, 0, 0.082);
+}
+
+.card-group {
+  margin-top: 10em !important;
+}
+
+.card-group .card i,
+.card-group .card p,
+.card-group .card h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Penutup Card */
+
+/* Komentar */
+.komentar .container h1 {
+  font-size: 4em !important;
+}
+
+.komentar .form-group p {
+  font-size: 1.5em;
+  color: #50586dab;
+  font-weight: 600;
+}
+
+.komentar h1,
+.komentar p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.komentar {
+  margin-bottom: 5em;
+  margin-top: 10em;
+}
+
+/* Penutup Komentar */
+
+/* Akhir footer */
+.akhir-footer {
+  margin-top: 15em;
+}
+
+.akhir-footer .container img {
+  width: 186px;
+  height: 178px;
+}
+
+.akhir-footer .link {
+  font-size: 2em;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.akhir-footer a:hover {
+  color: orangered;
+}
+
+.akhir-footer .icon-bar a {
+  text-decoration: none !important;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 600;
+  padding: 16px;
+}
+
+.akhir-footer .link a {
+  margin: 0.5em;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 600;
+}
+
+.akhir-footer a:hover {
+  color: orangered;
+}
+
+.akhir-footer .icon-bar a {
+  font-size: 2em;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+  margin-top: 300px;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Penutup Akhir Footer */
+
+/* responsive */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (-webkit-min-device-pixel-ratio: 2) {
+  .container .navbar .navbar-brand {
+    font-size: 6vw;
+  }
+
+  /* penutup navbar */
+  /* Carousel */
+  .carousel .carousel-inner img {
+    width: 100% !important;
+    height: 90vw;
+  }
+
+  /* komentar */
+  .komentar .container h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .komentar .container p {
+    font-size: 1.2rem;
+  }
+
+  /* penutup Komentar */
+  /* jumbotron tag */
+  .jumbotron-tag .row img {
+    width: 20vw;
+    height: 20vw;
+    margin-left: 7.5vw !important;
+  }
+
+  .jumbotron-tag .row {
+    width: 100vw;
+    text-align: center;
+  }
+
+  /* Penutup Jumbotron tag */
+  /* Artikel */
+  .artikel li a,
+  .artikel li span {
+    font-size: 4vw !important;
+    text-align: center !important;
+  }
+
+  .artikel ul {
+    font-size: 100%;
+    padding: 0;
+  }
+
+  .artikel .container h1 {
+    font-size: 8vw !important;
+  }
+
+  .artikel .container h2 {
+    font-size: 6vw;
+  }
+
+  .artikel .container p {
+    font-size: 5.3vw;
+    text-align: justify !important;
+  }
+
+  .artikel img {
+    width: 100% !important;
+    height: 20vh !important;
+  }
+
+  .artikel .col-sm-2 p,
+  .artikel .col-sm-10 p {
+    font-size: 4.5vw !important;
+  }
+
+  /* Penutup Artikel */
+  /* Akhir footer */
+  .akhir-footer .container .link {
+    font-size: 6vw;
+  }
+
+  .akhir-footer .icon-bar i {
+    font-size: 6vw;
+  }
+
+  /* Penutup akhir footer */
+}
+
+@media only screen and (min-device-width: 501px) and (max-device-width: 1348px) {
+  /* Nav bar */
+  /* Penutup Nav Bar */
+  /* carousel */
+  .carousel img {
+    max-height: 50vh;
+    min-height: 30vh;
+  }
+
+  /* Penutup tag jumbtron */
+
+  .container .navbar .nav-link:hover::after {
+    content: '';
+    display: block;
+    width: 10%;
+    margin-left: 1px !important;
+    padding-bottom: 5px;
+    margin-bottom: -5px;
+  }
+}

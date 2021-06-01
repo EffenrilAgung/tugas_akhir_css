@@ -1,0 +1,419 @@
+* {
+  font-size: 20px;
+}
+
+/* Nav bar */
+.container .navbar-nav a,
+.navbar-brand {
+  font-weight: 100;
+  font-size: 100%;
+  color: black !important;
+  z-index: 2;
+  font-family: 'viga' sans-serif;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive !important;
+}
+
+/* Penutup Navbar */
+
+/* Jumbotron */
+.info-panel {
+  margin-top: 2vh !important;
+  border: 2px solid red;
+  font-size: 100%;
+}
+
+.slide-jumbotron h1 {
+  position: relative;
+  text-align: center;
+  font-family: 'viga' sans-serif;
+  color: white;
+}
+
+.slide-jumbotron p {
+  position: relative;
+  text-align: center;
+  font-family: 'viga' sans-serif;
+  color: white;
+}
+
+.slide-jumbotron h1 {
+  font-size: 4vw;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+.slide-jumbotron p {
+  font-size: 2vw;
+}
+
+.slide-jumbotron .container .android {
+  margin-top: 50px !important;
+}
+
+.slide-jumbotron .container .lead {
+  margin-top: -4px;
+}
+
+.slide-jumbotron .lead,
+.android {
+  font-weight: 100;
+}
+
+.slide-jumbotron img {
+  filter: brightness(70%);
+  margin-top: 5vh;
+}
+
+.slide-jumbotron .info-panel button {
+  position: relative;
+  border-radius: 40px;
+  font-weight: 100 !important;
+  padding: 5px 10px;
+  font-size: 8px;
+}
+
+/* Penutup Jumbotron */
+
+/* pilihan */
+.pilihan {
+  background-color: rgba(168, 177, 177, 0.3) !important;
+  padding: 0 -30px;
+}
+
+.pilihan h1 {
+  font-size: 1.5em !important;
+}
+
+.pilihan p {
+  font-size: 0.9em;
+}
+
+.pilihan img {
+  width: 30% !important;
+}
+
+.pilihan {
+  font-family: 'Montserrat' sans-serif;
+}
+
+.pilihan picture h5,
+.pilihan picture p {
+  font-size: 1.5em;
+}
+
+.pilihan picture p {
+  color: #acacac;
+}
+
+.pilihan h5 {
+  text-align: center !important;
+}
+
+/* penutup pilihan */
+
+/* review */
+.review {
+  margin-top: 200px;
+  font-family: 'Raleway' sans-serif !important;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 100% !important;
+}
+
+.review h5 {
+  font-size: 8vw;
+  font-weight: lighter;
+}
+
+.review h1 {
+  font-size: 10vw;
+}
+
+.review p {
+  color: hsl(0, 0%, 59%);
+}
+
+.review .col-12 img {
+  width: 100%;
+  order: 2;
+}
+
+.review .lead {
+  font-size: 100%;
+  text-align: justify;
+  letter-spacing: 0.1px;
+  word-spacing: 3px;
+}
+
+/* penutup review */
+
+/* gallery */
+.gallery {
+  margin-top: 200px !important;
+}
+
+.gallery .col-sm-12 h4,
+.gallery .col-sm-12 {
+  font-family: 'Raleway' sans-serif;
+  text-align: center;
+}
+
+.gallery .col-sm-12 h4 {
+  font-size: 150%;
+}
+
+.gallery .col-sm-12 h6 {
+  font-size: 120%;
+  margin-bottom: 100px;
+  font-weight: 600;
+}
+
+/* Penutup Gallery */
+
+/* Akhir footer */
+.akhir-footer {
+  margin-top: 15em;
+}
+
+.akhir-footer .container img {
+  width: 186px;
+  height: 178px;
+}
+
+.akhir-footer .link {
+  font-size: 1em;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.akhir-footer a:hover {
+  color: orangered;
+}
+
+.akhir-footer .icon-bar a {
+  text-decoration: none !important;
+  font-size: 100%;
+  color: white;
+  vertical-align: text-bottom;
+  padding: 2%;
+  font-weight: 600;
+}
+
+.akhir-footer .link a {
+  margin: 0.5em;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 600;
+}
+
+.akhir-footer a:hover {
+  color: orangered;
+}
+
+.akhir-footer .icon-bar a {
+  font-size: 3vw;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+  margin-top: 300px;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Penutup Akhir Footer */
+
+/* responsif */
+@media (min-width: 992px) {
+  /* navbar */
+  * {
+    font-size: 23px;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.479) !important;
+  }
+
+  .container .navbar a {
+    margin-right: 20px !important;
+    color: white !important;
+  }
+
+  .container .nav-link {
+    font-size: 110% !important;
+  }
+
+  .container .navbar .nav-link:hover {
+    color: white !important;
+    background-color: rgba(13, 22, 110, 0.5);
+  }
+
+  .container .navbar-brand {
+    font-size: 120% !important;
+  }
+
+  /* Peutup NAv */
+  /* Review */
+  .review h1 {
+    font-size: 220%;
+  }
+
+  .review h5 {
+    font-size: 115%;
+  }
+
+  /* Penutup review */
+
+  /* Jumbotron */
+  .slide-jumbotron .carousel {
+    margin-top: -90px;
+  }
+
+  .slide-jumbotron img {
+    height: 800px;
+    width: 100%;
+  }
+
+  .info-panel {
+    margin-top: 300px !important;
+  }
+
+  .slide-jumbotron h1,
+  .slide-jumbotron p {
+    color: yellow !important;
+  }
+
+  .slide-jumbotron h1 {
+    font-size: 240% !important;
+    position: relative;
+  }
+
+  .slide-jumbotron p {
+    font-size: 150%;
+  }
+
+  .slide-jumbotron {
+    font-size: 8vh !important;
+  }
+
+  .slide-jumbotron .info-panel button {
+    border-radius: 40px;
+    font-weight: 100 !important;
+    padding: 10px 30px;
+    font-size: 20px;
+  }
+
+  .slide-jumbotron .info-panel button:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  /* Penutup Jumbotron */
+
+  /* pilihan */
+  .pilihan img {
+    width: 50% !important;
+  }
+
+  .pilihan h1 {
+    font-size: 300% !important;
+  }
+
+  .pilihan p {
+    font-size: 110% !important;
+    word-spacing: -2px;
+  }
+
+  .pilihan h5 {
+    font-size: 150% !important;
+    font-weight: 600;
+    margin: 9% 9%;
+  }
+
+  .pilihan h5 {
+    text-align: center;
+  }
+
+  .pilihan .subjudul {
+    font-size: 2em;
+    font-weight: 100;
+    color: #acacac;
+    margin-top: 15px !important;
+  }
+
+  .pilihan .col-12 {
+    margin-top: 50px;
+  }
+
+  /* penutup pilihan */
+
+  /* Gallery */
+  .gallery .row img:hover {
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.479) !important;
+    margin-top: -15px;
+    transition: all 1s ease-in;
+    animation-name: animasi;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+  }
+
+  .gallery .row img {
+    filter: blur(1.5px);
+  }
+
+  @keyframes animasi {
+    10% {
+      filter: blur(1px);
+    }
+
+    50% {
+      filter: blur(0.5px);
+    }
+
+    100% {
+      filter: blur(0);
+    }
+  }
+
+  /* Penutup Gallery */
+  /* akhir footer */
+  .akhir-footer .link a {
+    font-size: 2em;
+  }
+
+  .akhir-footer p .text-center {
+    font-size: 64% !important;
+  }
+
+  .akhir-footer.col-sm-12 ::before {
+    font-size: 140%;
+  }
+  /* penutup Akhir footer */
+}

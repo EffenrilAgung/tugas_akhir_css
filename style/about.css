@@ -1,0 +1,363 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 1) !important;
+  padding: 30px;
+}
+
+.container .navbar-nav a,
+.navbar-brand {
+  font-weight: 100;
+  font-size: 1.5em;
+  color: black !important;
+  z-index: 2;
+  font-family: 'viga' sans-serif;
+  padding: 5px;
+}
+
+.container .navbar .nav-link {
+  margin-right: 1em;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive !important;
+}
+
+.container .navbar .nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid blue;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -5px;
+}
+
+/* Penutup Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  margin-top: 1vh;
+  height: 89vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.267),
+      rgba(0, 0, 0, 0.397)
+    ),
+    url(../img/jumbotron12.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  margin-top: 30vh !important;
+  font-family: 'Lobster', cursive;
+}
+
+.jumbotron .container h1,
+.jumbotron p {
+  font-size: 4em !important;
+  font-weight: 900;
+  color: white;
+}
+
+@keyframes jumbotron {
+  0% {
+    background: rgb(180, 152, 58);
+    background: linear-gradient(
+      90deg,
+      rgb(63, 251, 157) 27%,
+      rgb(88, 70, 252) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  50% {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(
+      100deg,
+      rgba(63, 94, 251, 1) 27%,
+      rgba(252, 70, 107, 1) 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(
+      304deg,
+      rgba(131, 58, 180, 1) 0%,
+      rgb(201, 29, 253) 50%,
+      rgba(252, 176, 69, 1) 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+.tag-jumbotron .col-12 {
+  height: 6.1vh;
+  color: #c7cad5;
+  letter-spacing: 2px;
+}
+
+.tag-jumbotron p {
+  margin-top: 3em;
+  font-weight: 450;
+}
+
+/* Penutup Jumbotron */
+
+/* Artikel */
+article .container h3 {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+}
+
+article .container p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: #222222;
+}
+
+article .container {
+  margin-top: 15em;
+}
+
+.gambar img {
+  margin-top: 12vh;
+}
+
+article .container .rounded-circle {
+  margin-top: 17vh !important;
+  width: 101px;
+  height: 101px;
+}
+
+article i {
+  font-weight: 600;
+  color: #93959b;
+}
+
+article button {
+  margin-top: 12vh;
+  font-size: 1.5em !important;
+  color: rgba(0, 0, 255, 0.418) !important;
+  font-weight: 500 !important;
+  border-radius: 30px !important;
+  padding: 1.5em;
+}
+
+article button:hover {
+  color: white !important;
+}
+
+/* Penutup Artikel */
+
+/* footer */
+footer .text-primary {
+  font-size: 1.3em;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+
+footer h1 {
+  margin-top: 1.3em;
+  font-size: 3em;
+  font-weight: 600;
+  background: linear-gradient(
+    180deg,
+    rgba(63, 94, 251, 1) 27%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  -webkit-background-clip: text;
+  font-family: 'Montserrat', sans-serif;
+  animation-name: jumbotron;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3.4s;
+}
+
+footer .sub-footer {
+  margin-top: 2em;
+}
+
+footer .sub-footer p {
+  line-height: 0.8em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  color: #6a6b70;
+}
+
+/* Penutup footer */
+/* Peta */
+.peta {
+  margin-top: 6em;
+}
+
+/* Penutup Peta */
+
+/* Media kerja sama */
+.col-md-4 {
+  border-right: 2px solid #c7cad53a;
+  border-bottom: 2px solid #c7cad53a;
+}
+
+.media-kerjasama .col-12 {
+  margin-top: 10em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.media-kerjasama .col-md-4 h6 {
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.media-kerjasama .col-md-4 p,
+.media-kerjasama .col-md-4 li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+.media-kerjasama .col-md-4 a {
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+.media-kerjasama .col-md-4 a:hover {
+  color: orangered;
+}
+
+.media-kerjasama ul li {
+  display: inline-block;
+  list-style: circle;
+}
+
+/* Penutup Media Kerja sama */
+
+/* Akhir footer */
+.akhir-footer {
+  margin-top: 15em;
+}
+
+.akhir-footer .container img {
+  width: 186px;
+  height: 178px;
+}
+
+.akhir-footer .link {
+  font-size: 170%;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.akhir-footer a:hover {
+  color: orangered;
+}
+
+.akhir-footer .icon-bar a {
+  text-decoration: none !important;
+  color: white;
+  font-weight: 600;
+  padding: 16px;
+}
+
+.akhir-footer .link a {
+  margin: 0.5em;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-weight: 600;
+}
+
+.akhir-footer a:hover {
+  color: orangered;
+}
+
+.akhir-footer .icon-bar a {
+  font-size: 150%;
+}
+
+.akhir-footer ::before {
+  font-size: 140%;
+}
+
+.akhir-footer p .text-center {
+  font-size: 78% !important;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+  margin-top: 300px;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+/* Penutup Akhir Footer */
+
+/* Responsif */
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* navbar */
+  .container .navbar .nav-link:hover::after {
+    content: '';
+    display: block;
+    width: 20%;
+    margin-left: 1px;
+    padding-bottom: 5px;
+    margin-bottom: -5px;
+  }
+
+  .jumbotron .container p,
+  .jumbotron .container h1 {
+    font-size: 2.3em !important;
+  }
+
+  .jumbotron .container {
+    margin-top: 6em !important;
+    transform: scale(0);
+  }
+
+  .jumbotron {
+    height: 92.3vh;
+    background-position-y: 100%;
+  }
+
+  .tag-jumbotron p {
+    font-weight: 500 !important;
+    font-size: 0.8rem;
+    padding-bottom: 0.43em;
+  }
+}

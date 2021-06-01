@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+.fimanager:before {
+    display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.flaticon-001-action-camera:before { content: "\f100"; }
+.flaticon-002-mountain:before { content: "\f101"; }
+.flaticon-003-bonfire:before { content: "\f102"; }
+.flaticon-004-calendar:before { content: "\f103"; }
+.flaticon-005-camera:before { content: "\f104"; }
+.flaticon-006-camping:before { content: "\f105"; }
+.flaticon-007-compass:before { content: "\f106"; }
+.flaticon-008-boot:before { content: "\f107"; }
+.flaticon-009-walkie-talkie:before { content: "\f108"; }
+.flaticon-010-shotgun:before { content: "\f109"; }
+.flaticon-011-first-aid-kit:before { content: "\f10a"; }
+.flaticon-012-hot-air-balloon:before { content: "\f10b"; }
+.flaticon-013-backpack:before { content: "\f10c"; }
+.flaticon-014-gps:before { content: "\f10d"; }
+.flaticon-015-matches:before { content: "\f10e"; }
+.flaticon-016-binoculars:before { content: "\f10f"; }
+.flaticon-017-oil-lamp:before { content: "\f110"; }
+.flaticon-018-passport:before { content: "\f111"; }
+.flaticon-019-picnic:before { content: "\f112"; }
+.flaticon-020-signaling:before { content: "\f113"; }
+.flaticon-021-paragliding:before { content: "\f114"; }
+.flaticon-022-jeep:before { content: "\f115"; }
+.flaticon-023-swiss-knife:before { content: "\f116"; }
+.flaticon-024-thermo:before { content: "\f117"; }
+.flaticon-025-torch:before { content: "\f118"; }
+.flaticon-026-bike:before { content: "\f119"; }
+.flaticon-027-caravan:before { content: "\f11a"; }
+.flaticon-028-mountains:before { content: "\f11b"; }
+.flaticon-029-fishing-vest:before { content: "\f11c"; }
+.flaticon-030-waterfall:before { content: "\f11d"; }
+
+$font-Flaticon-001-action-camera: "\f100";
+$font-Flaticon-002-mountain: "\f101";
+$font-Flaticon-003-bonfire: "\f102";
+$font-Flaticon-004-calendar: "\f103";
+$font-Flaticon-005-camera: "\f104";
+$font-Flaticon-006-camping: "\f105";
+$font-Flaticon-007-compass: "\f106";
+$font-Flaticon-008-boot: "\f107";
+$font-Flaticon-009-walkie-talkie: "\f108";
+$font-Flaticon-010-shotgun: "\f109";
+$font-Flaticon-011-first-aid-kit: "\f10a";
+$font-Flaticon-012-hot-air-balloon: "\f10b";
+$font-Flaticon-013-backpack: "\f10c";
+$font-Flaticon-014-gps: "\f10d";
+$font-Flaticon-015-matches: "\f10e";
+$font-Flaticon-016-binoculars: "\f10f";
+$font-Flaticon-017-oil-lamp: "\f110";
+$font-Flaticon-018-passport: "\f111";
+$font-Flaticon-019-picnic: "\f112";
+$font-Flaticon-020-signaling: "\f113";
+$font-Flaticon-021-paragliding: "\f114";
+$font-Flaticon-022-jeep: "\f115";
+$font-Flaticon-023-swiss-knife: "\f116";
+$font-Flaticon-024-thermo: "\f117";
+$font-Flaticon-025-torch: "\f118";
+$font-Flaticon-026-bike: "\f119";
+$font-Flaticon-027-caravan: "\f11a";
+$font-Flaticon-028-mountains: "\f11b";
+$font-Flaticon-029-fishing-vest: "\f11c";
+$font-Flaticon-030-waterfall: "\f11d";
